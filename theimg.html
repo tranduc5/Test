@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 13 :  Thẻ IMG</title>
+</head>
+<body>
+    <h1>Bộ sưu tập ảnh phong cảnh . </h1>
+    <!-- 
+        src : thuộc tính , gán link ảnh
+        alt : Hiển thị text khi ảnh bị lỗi .  
+        width : dộ rộng (px) 
+        height : độ cao 
+        
+    -->
+    <img src="https://hoanghamobile.com/tin-tuc/wp-content/uploads/2024/10/tai-anh-phong-canh-dep-2.jp" alt="Ảnh ở đây.">
+    <img src="img/TTT09675.jpg" width="200" height="300" alt="Ảnh kỉ yếu.">
+
+    <!-- cách 2 : dùng style-->
+     <style>
+        .responsive-img{
+            max-width: 50%;
+            height: auto;
+        }
+    </style>
+     <img src="img/TTT09675.jpg" class="responsive-img">
+
+     <p>Đường dẫn tuyệt đối</p>
+    <img src="/img/anhconcho.jpg" alt="Ảnh cuối . ">
+</body>
+</html>
